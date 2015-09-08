@@ -1,0 +1,19 @@
+/**************
+* MY UPDATES
+***************/
+.attribution{
+    position:absolute;
+    bottom:0;
+    right:0;
+    font-size:0.5em;
+}
+
+.reveal .massive {
+  font-size: 8em;
+}
+
+span.clouditem {
+  padding-left: 0.15em;
+  padding-right: 0.15em;
+  line-height: 90%;
+}

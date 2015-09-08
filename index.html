@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Are you Talking to Me? An analysis of Journalism conversation on Twitter</title>
+
+		<meta name="description" content="Are you Talking to Me? An analysis of Journalism conversation on Twitter">
+		<meta name="author" content="Martin J Chorley">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Are you Talking to Me?</h1>
+					<h3>An analysis of Journalism conversation on Twitter</h3>
+					<p>
+						<small><a href="http://martinjc.com">Martin Chorley</a> (<a href="http://twitter.com/martinjc">@martinjc</a>)</small>
+						<small> &amp; </small>
+						<small><a href="http://egrommet.net">Glyn Mottershead</a> (<a href="http://twitter.com/egrommet">@egrommet</a>)</small>
+					</p>
+				</section>
+
+				<section data-background="img/caution.jpg">
+				</section>
+
+				<section data-background="img/twitter_logo.png">
+				</section>
+
+				<section>
+					<table class="stretch">
+						<thead>
+							<tr>
+								<th>Study</th>
+								<th>Subjects</th>
+								<th>Timespan</th>
+								<th>Notes</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Herrera-Damas and Hermida (2014)</td>
+								<td>3 radio stations (CAN)</td>
+								<td>2 weeks(non consecutive)</td>
+								<td>2010 &amp; 2011</td>
+							</tr>
+							<tr>
+								<td>Lasorsa et. al (2012)</td>
+								<td>500 journalists (US)</td>
+								<td>2 weeks</td>
+								<td>first 10 tweets per day</td>
+							</tr>
+							<tr>
+								<td>Cleary et. al (2014)</td>
+								<td>CNN + 3 anchors</td>
+								<td>1 month</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Rosenstiel et. al, (2011)</td>
+								<td>13 news organisation (37 accounts)</td>
+								<td>1 week</td>
+								<td>3,646 tweets</td>
+							</tr>
+						</tbody>
+					</table>				
+				</section>
+
+				<section>
+					<section>
+						<h1 class="massive">DATA</h1>
+					</section>
+					<section>
+						<blockquote cite="https://www.facebook.com/dan.ariely/posts/904383595868">
+							&ldquo;Big data is like teenage sex: everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so everyone claims they are doing it....&rdquo;
+						</blockquote>
+						<p> - Dan Ariely</p>
+					</section>
+				</section>
+
+				<section>
+					<h1>Questions</h1>
+					<p class="fragment">Are news organisations conversing with the public?</p>
+					<p class="fragment">Are journalists conversing with the public?</p>
+					<p class="fragment">Are conversations happening mainly within the news community?</p>
+				</section>
+
+
+				<section>
+					<p>let's get some</p>
+					<h1 class="massive">DATA</h1>
+				</section>
+
+				<section>
+					<p>SOMETHING ABOUT THE API HERE</p>
+				</section>
+
+
+				<section>
+					<h3>Streaming gives us:</h3>
+					<ul>
+						<li>Tweets created by the user</li>
+						<li>Tweets which are retweeted by the user</li>
+						<li>Replies to any Tweet created by the user</li>
+						<li>Retweets of any Tweet created by the user</li>
+						<li>Manual replies, created without pressing a reply button (e.g. “@twitterapi I agree”)</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Streaming does not give us:</h3>
+					<ul>
+						<li>Tweets mentioning the user (e.g. “Hello @twitterapi!”)</li>
+						<li>Manual Retweets created without pressing a Retweet button (e.g. “RT @twitterapi The API is great”)</li>
+						<li>Tweets by protected users</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Organisation accounts</h3>
+					<p>guardian, guardiannews, MailOnline, DailyMail, DailyMailUK, BBCWorld, BBCNews, BBCBreaking, cnni, cnn, nytimes, nytimesworld, Reuters, ReutersLive, FinancialTimes, ft, thetimes, SkyNews, SkyNewsBreak, DailyMirror, ampp3d, Channel4News, TheSunNewspaper, Telegraph, independent, thei100</p>
+					<h3>Individuals accounts</h3>
+					<p>List of 2200+ '<a href="https://www.journalism.co.uk/prof">Journalists on Twitter</a>' from journalism.co.uk</p>
+				</section>
+
+				<section>
+					<section>
+						<h3>2303 Twitter accounts</h3>
+						<h3>20th March to 15th July</h3>
+						<h3>11,638,197 Tweets</h3>
+					</section>
+
+					<section>
+						<p>Ignore retweets made by other people</p>
+						<h3>1,225,752 Tweets</h3>
+					</section>
+
+					<section>
+						<table class="stretch">
+							<thead>
+								<tr>
+									<th></th>
+									<th>Original Tweets</th>
+									<th>Retweets</th>
+									<th>Total</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Organisations</td>
+									<td>150,203 (80.47%)</td>
+									<td>36,443 (19.53%)</td>
+									<td>186,646</td>
+								</tr>
+								<tr>
+									<td>Individuals</td>
+									<td>739,204 (71.14%)</td>
+									<td>299,902 (28.86%)</td>
+									<td>1,039,106</td>
+								</tr>
+								<tr>
+									<td><strong>Total</strong></td>
+									<td><strong>889,407</strong></td>
+									<td><strong>336,345</strong></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<img class="stretch" style="background: white" src="img/dow.png">
+					</section>
+
+					<section>
+						<img class="stretch" style="background: white" src="img/tod.png">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>@mentions</h1>
+					</section>
+
+					<section>
+						<h3>Number of @mentions made</h3>
+						<table>
+							<thead>
+								<tr>
+									<th></th>
+									<th colspan=3>Original</th>
+									<th colspan=3>Retweets</th>
+								</tr>
+								<tr>
+									<th></th>
+									<th>Avg.</th>
+									<th>Min</th>
+									<th>Max</th>
+									<th>Avg.</th>
+									<th>Min</th>
+									<th>Max</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Organisations</td>
+									<td>821</td>
+									<td>5</td>
+									<td>4949</td>
+									<td>2356</td>
+									<td>6</td>
+									<td>14177</td>
+								</tr>
+								<tr>
+									<td>Individuals</td>
+									<td>269</td>
+									<td>1</td>
+									<td>9564</td>
+									<td>218</td>
+									<td>1</td>
+									<td>21531</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+
+					<section>
+						<h3>Unique users @Mentioned</h3>
+						<table>
+							<thead>
+								<tr>
+									<th></th>
+									<th colspan=3>Original</th>
+									<th colspan=3>Retweets</th>
+								</tr>
+								<tr>
+									<th></th>
+									<th>Avg.</th>
+									<th>Min</th>
+									<th>Max</th>
+									<th>Avg.</th>
+									<th>Min</th>
+									<th>Max</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Organisations</td>
+									<td>137</td>
+									<td>1</td>
+									<td>451</td>
+									<td>212</td>
+									<td>6</td>
+									<td>1191</td>
+								</tr>
+								<tr>
+									<td>Individuals</td>
+									<td>107</td>
+									<td>1</td>
+									<td>2683</td>
+									<td>110</td>
+									<td>1</td>
+									<td>3518</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+
+					<section>
+						<h3>But who are they talking to?</h3>
+					</section>
+				</section>
+
+				<section>
+
+					<section>
+						<h3>157,512 unique accounts mentioned</h3>
+						<p>(3,019 deleted/banned)
+						<p>(155,097 not already included in study)</p>
+						<h3>152,078 accounts available</h3>
+					</section>
+
+					<section>
+						<p>Can we classify a user as news/non-news?</p>
+					</section>
+				
+					<section data-background="img/profile.png">
+					</section>
+
+					<section data-background="img/cloud.png">
+					</section>
+
+					<section>
+						<h3>25,629 media/journalism accounts</h3>
+					</section>
+
+					<section>
+						<h3>Selected Organisation @Mentions</h3>
+						<table>
+							<thead>
+								<tr>
+									<th>Organisation</th>
+									<th>News</th>
+									<th>Non-News</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Guardian</td>
+									<td>3,110</td>
+									<td>529</td>
+								</tr>
+								<tr>
+									<td>Daily Mail</td>
+									<td>1,886</td>
+									<td>977</td>
+								</tr>
+								<tr>
+									<td>BBC</td>
+									<td>16,101</td>
+									<td>5,552</td>
+								</tr>
+								<tr>
+									<td>The Times</td>
+									<td>707</td>
+									<td>435</td>
+								</tr>
+								<tr>
+									<td>The Mirror</td>
+									<td>3,455</td>
+									<td>3,499</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+
+					<section>
+						<h3>Average users mentioned (>=5 mentions)</h3>
+						<table>
+							<thead>
+								<tr>
+									<th></th>
+									<th>News</th>
+									<th>Non-News</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Organisations</td>
+									<td>28.83</td>
+									<td>16.74</td>
+								</tr>
+								<tr>
+									<td>Individuals</td>
+									<td>7.92</td>
+									<td>8.06</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+
+					<section>
+						<h3>Total mentions (>=5 mentions)</h3>
+						<table>
+							<thead>
+								<tr>
+									<th></th>
+									<th>News</th>
+									<th>Non-News</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Organisations</td>
+									<td>1481.89</td>
+									<td>802.6</td>
+								</tr>
+								<tr>
+									<td>Individuals</td>
+									<td>123.8</td>
+									<td>93.12</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>					
+				</section>
+
+				<section>
+					<section>
+						<h3>Preliminary Findings</h3>
+						<ul>
+							<li>Possible to conduct large scale analysis of news communities on Twitter</li>
+							<li>Differences exist between organisations and individuals on Twitter</li>
+							<li>Evidence that both organisations and individuals favour communication within the news community</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Next...</h3>
+						<ul>
+							<li>Improve user classification</li>
+							<li>Implement pipeline (continuous analysis)</li>
+							<li>Conversation thread analysis</li>
+							<li>Content analysis</li>
+							<li>Content sharing analysis</li>
+							<li>Profile growth analysis</li>
+						</ul>
+					</section>
+				</section>
+
+
+				<section>
+					<h3>Thanks! - Questions?</h3>
+					<p><a href="http://martinjc.com">Martin Chorley</a> (<a href="http://twitter.com/martinjc">@martinjc</a>)</p>
+					<h4>Image Credits</h4>
+					<p><small>Caution - CC BY 2.0 by <a href="https://www.flickr.com/photos/pictureperfectpose/">Eugene Zemlyanskiy</a></small></p>
+					<p><small>Twitter bird logo &copy; <a href="https://about.twitter.com/company/brand-assets">Twitter Inc.</a></small></p>
+				</section>
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/tagcloud/tagcloud.js', async: true } 
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
